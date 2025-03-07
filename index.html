@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой Первый Веб-Документ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            letter-spacing: 2px;
+            margin: 20px 0;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .block1, .block2 {
+            padding: 20px;
+            border: 2px solid #4CAF50;
+            margin: 20px;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+        }
+
+        .block1 {
+            width: 300px;
+            height: 150px;
+        }
+
+        .block2 {
+            max-width: 400px;
+            max-height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Мой первый веб-документ</h1>
+    <p>Этот текст предназначен для изучения CSS-свойств текста.</p>
+    <p class="italic">Этот параграф имеет курсивный текст.</p>
+    <p class="underline">Этот текст будет подчеркиваться.</p>
+
+    <div class="block1">
+        <p>Текст внутри первого блока с фиксированными размерами.</p>
+    </div>
+    
+    <div class="block2">
+        <p>Текст внутри второго блока с максимальными размерами.</p>
+    </div>
+
+</body>
+</html>
